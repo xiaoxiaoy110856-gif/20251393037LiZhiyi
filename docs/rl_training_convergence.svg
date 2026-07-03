@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="610" viewBox="0 0 1240 610">
+  <style>
+    .bg { fill: #fbfaf7; }
+    .title { font: 700 26px Arial, sans-serif; fill: #17202a; }
+    .subtitle { font: 15px Arial, sans-serif; fill: #58606a; }
+    .panel-title { font: 700 18px Arial, sans-serif; fill: #17202a; }
+    .axis { stroke: #303742; stroke-width: 1.4; }
+    .grid { stroke: #d9ddd8; stroke-width: 1; }
+    .tick { font: 12px Arial, sans-serif; fill: #58606a; }
+    .label { font: 13px Arial, sans-serif; fill: #303742; }
+    .legend { font: 13px Arial, sans-serif; fill: #303742; }
+    .note { font: 14px Arial, sans-serif; fill: #303742; }
+    .metric { font: 700 19px Arial, sans-serif; fill: #17202a; }
+    .card { fill: #ffffff; stroke: #d8ddd6; stroke-width: 1.2; rx: 8; }
+  </style>
+  <rect class="bg" x="0" y="0" width="1240" height="610"/>
+  <text class="title" x="52" y="48">Retrieval RL Training Convergence</text>
+  <text class="subtitle" x="52" y="76">PPO reward/loss trend and DPO preference-training loss over 120 epochs</text>
+
+  <rect class="card" x="48" y="92" width="552" height="332"/>
+  <text class="panel-title" x="92" y="134">PPO on-policy signal</text>
+  <line x1="92.0" y1="112" x2="92.0" y2="350" class="grid"/>
+<text x="92.0" y="378" text-anchor="middle" class="tick">1</text>
+<line x1="209.5" y1="112" x2="209.5" y2="350" class="grid"/>
+<text x="209.5" y="378" text-anchor="middle" class="tick">16</text>
+<line x1="327.0" y1="112" x2="327.0" y2="350" class="grid"/>
+<text x="327.0" y="378" text-anchor="middle" class="tick">30</text>
+<line x1="444.5" y1="112" x2="444.5" y2="350" class="grid"/>
+<text x="444.5" y="378" text-anchor="middle" class="tick">45</text>
+<line x1="562.0" y1="112" x2="562.0" y2="350" class="grid"/>
+<text x="562.0" y="378" text-anchor="middle" class="tick">60</text>
+<line x1="92" y1="350.0" x2="562" y2="350.0" class="grid"/>
+<text x="78" y="354.0" text-anchor="end" class="tick">-0.066</text>
+<line x1="92" y1="290.5" x2="562" y2="290.5" class="grid"/>
+<text x="78" y="294.5" text-anchor="end" class="tick">0.127</text>
+<line x1="92" y1="231.0" x2="562" y2="231.0" class="grid"/>
+<text x="78" y="235.0" text-anchor="end" class="tick">0.319</text>
+<line x1="92" y1="171.5" x2="562" y2="171.5" class="grid"/>
+<text x="78" y="175.5" text-anchor="end" class="tick">0.511</text>
+<line x1="92" y1="112.0" x2="562" y2="112.0" class="grid"/>
+<text x="78" y="116.0" text-anchor="end" class="tick">0.704</text>
+  <line x1="92" y1="350" x2="562" y2="350" class="axis"/>
+  <line x1="92" y1="112" x2="92" y2="350" class="axis"/>
+  <polyline points="92.0,128.4 100.0,129.5 107.9,138.6 115.9,138.5 123.9,143.6 131.8,146.6 139.8,147.8 147.8,150.2 155.7,153.6 163.7,157.8 171.7,154.5 179.6,155.1 187.6,158.8 195.6,162.4 203.5,166.1 211.5,170.7 219.5,172.6 227.4,171.8 235.4,172.3 243.4,173.4 251.3,169.1 259.3,167.9 267.3,174.4 275.2,174.0 283.2,170.6 291.2,170.6 299.1,167.6 307.1,163.0 315.1,160.8 323.0,161.8 331.0,167.1 338.9,162.0 346.9,163.0 354.9,161.0 362.8,160.2 370.8,160.7 378.8,166.9 386.7,164.1 394.7,171.3 402.7,174.7 410.6,173.1 418.6,174.5 426.6,174.0 434.5,177.3 442.5,179.9 450.5,181.9 458.4,179.2 466.4,179.3 474.4,179.2 482.3,184.4 490.3,174.6 498.3,172.3 506.2,170.8 514.2,170.2 522.2,166.6 530.1,168.8 538.1,171.2 546.1,170.9 554.0,169.3 562.0,166.2" fill="none" stroke="#0f8b8d" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="92.0,270.2 100.0,274.1 107.9,283.1 115.9,288.7 123.9,293.9 131.8,298.1 139.8,300.7 147.8,303.1 155.7,306.2 163.7,308.3 171.7,309.6 179.6,311.4 187.6,316.7 195.6,320.7 203.5,323.0 211.5,325.5 219.5,326.5 227.4,327.7 235.4,328.8 243.4,329.8 251.3,329.8 259.3,329.8 267.3,331.1 275.2,331.2 283.2,330.9 291.2,331.3 299.1,332.0 307.1,331.6 315.1,332.0 323.0,331.4 331.0,331.6 338.9,331.5 346.9,331.4 354.9,331.7 362.8,331.4 370.8,331.6 378.8,331.7 386.7,331.7 394.7,331.2 402.7,331.4 410.6,330.9 418.6,331.8 426.6,331.8 434.5,331.4 442.5,332.0 450.5,332.3 458.4,332.4 466.4,332.2 474.4,332.5 482.3,332.7 490.3,332.8 498.3,332.5 506.2,333.3 514.2,332.4 522.2,332.9 530.1,333.5 538.1,333.4 546.1,333.6 554.0,333.4 562.0,332.9" fill="none" stroke="#e76f51" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="327" y="404" text-anchor="middle" class="label">Episode</text>
+  <line x1="300" y1="132" x2="328" y2="132" stroke="#0f8b8d" stroke-width="4" stroke-linecap="round"/>
+<text x="338" y="137" class="legend">Reward MA</text>
+<line x1="465" y1="132" x2="493" y2="132" stroke="#e76f51" stroke-width="4" stroke-linecap="round"/>
+<text x="503" y="137" class="legend">Loss MA</text>
+
+  <rect class="card" x="646" y="92" width="552" height="332"/>
+  <text class="panel-title" x="690" y="134">DPO loss convergence</text>
+  <line x1="690.0" y1="112" x2="690.0" y2="350" class="grid"/>
+<text x="690.0" y="378" text-anchor="middle" class="tick">1</text>
+<line x1="807.5" y1="112" x2="807.5" y2="350" class="grid"/>
+<text x="807.5" y="378" text-anchor="middle" class="tick">31</text>
+<line x1="925.0" y1="112" x2="925.0" y2="350" class="grid"/>
+<text x="925.0" y="378" text-anchor="middle" class="tick">60</text>
+<line x1="1042.5" y1="112" x2="1042.5" y2="350" class="grid"/>
+<text x="1042.5" y="378" text-anchor="middle" class="tick">90</text>
+<line x1="1160.0" y1="112" x2="1160.0" y2="350" class="grid"/>
+<text x="1160.0" y="378" text-anchor="middle" class="tick">120</text>
+<line x1="690" y1="350.0" x2="1160" y2="350.0" class="grid"/>
+<text x="676" y="354.0" text-anchor="end" class="tick">0.202</text>
+<line x1="690" y1="290.5" x2="1160" y2="290.5" class="grid"/>
+<text x="676" y="294.5" text-anchor="end" class="tick">0.721</text>
+<line x1="690" y1="231.0" x2="1160" y2="231.0" class="grid"/>
+<text x="676" y="235.0" text-anchor="end" class="tick">1.240</text>
+<line x1="690" y1="171.5" x2="1160" y2="171.5" class="grid"/>
+<text x="676" y="175.5" text-anchor="end" class="tick">1.760</text>
+<line x1="690" y1="112.0" x2="1160" y2="112.0" class="grid"/>
+<text x="676" y="116.0" text-anchor="end" class="tick">2.279</text>
+  <line x1="690" y1="350" x2="1160" y2="350" class="axis"/>
+  <line x1="690" y1="112" x2="690" y2="350" class="axis"/>
+  <polyline points="690.0,257.5 725.5,268.7 765.0,280.6 804.5,288.9 844.0,293.6 883.5,298.4 923.0,301.0 962.5,301.4 1002.0,301.0 1041.5,302.0 1081.0,307.4 1120.5,309.2 1160.0,309.7" fill="none" stroke="#2b6cb0" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="690.0,294.2 725.5,301.9 765.0,310.1 804.5,317.8 844.0,321.5 883.5,325.7 923.0,327.7 962.5,329.3 1002.0,327.2 1041.5,328.1 1081.0,332.0 1120.5,333.6 1160.0,333.6" fill="none" stroke="#6f42c1" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="690.0,128.4 725.5,152.0 765.0,176.7 804.5,181.0 844.0,187.2 883.5,191.5 923.0,195.2 962.5,187.2 1002.0,198.5 1041.5,198.8 1081.0,208.7 1120.5,210.4 1160.0,214.4" fill="none" stroke="#d99021" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="925" y="404" text-anchor="middle" class="label">Epoch</text>
+  <line x1="804" y1="132" x2="832" y2="132" stroke="#2b6cb0" stroke-width="4" stroke-linecap="round"/>
+<text x="842" y="137" class="legend">Total loss</text>
+<line x1="969" y1="132" x2="997" y2="132" stroke="#6f42c1" stroke-width="4" stroke-linecap="round"/>
+<text x="1007" y="137" class="legend">DPO loss</text>
+<line x1="1134" y1="132" x2="1162" y2="132" stroke="#d99021" stroke-width="4" stroke-linecap="round"/>
+<text x="1172" y="137" class="legend">SFT loss</text>
+
+  <rect class="card" x="48" y="454" width="1150" height="108"/>
+  <text class="note" x="78" y="492">DPO total loss:</text>
+  <text class="metric" x="202" y="492">1.0094 -> 0.5533</text>
+  <text class="note" x="420" y="492">DPO preference loss:</text>
+  <text class="metric" x="588" y="492">0.6891 -> 0.3455</text>
+  <text class="note" x="820" y="492">SFT auxiliary loss:</text>
+  <text class="metric" x="970" y="492">2.1356 -> 1.3856</text>
+  <text class="note" x="78" y="532">Interpretation: the DPO objective converges steadily; PPO is noisier because it samples actions online, so the moving average is the useful trend.</text>
+</svg>
